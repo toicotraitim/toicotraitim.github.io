@@ -1,0 +1,209 @@
+/* animate.css by DevAV*/
+
+.zoomInDown {
+    animation: zoomInDown 0.7s ease-in;
+    -o-animation: zoomInDown 0.7s ease-in;
+    -moz-animation: zoomInDown 0.7s ease-in;
+}
+
+@keyframes zoomInDown {
+    0% {
+        opacity: 0;
+        transform: scale(0) translateY(-1000px);
+    }
+    98% {
+        opacity: 0.7;
+        transform: scale(0.7) translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0px);
+    }
+}
+
+.fadeInUp {
+    animation: fadeInUp 0.7s ease-in;
+    -o-animation: fadeInUp 0.7s ease-in;
+    -moz-animation: fadeInUp 0.7s ease-in;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.fadeInRight {
+    animation: fadeInRight 1s ease-in;
+    -o-animation: fadeInRight 1s ease-in;
+    -moz-animation: fadeInRight 1s ease-in;
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.fadeInLeft {
+    animation: fadeInLeft 1s ease-in;
+    -o-animation: fadeInLeft 1s ease-in;
+    -moz-animation: fadeInLeft 1s ease-in;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.lineSpeedInRight {
+    animation: lineSpeedInRight 0.5s ease-in;
+    -o-animation: lineSpeedInRight 0.5s ease-in;
+    -moz-animation: lineSpeedInRight 0.5s ease-in;
+}
+
+@keyframes lineSpeedInRight {
+    0% {
+        opacity: 0;
+        transform: skewX(-45deg) translateX(100px);
+    }
+    50% {
+        transform: skewX(45deg) translateX(0%);
+    }
+    100% {
+        opacity: 1;
+        transform: skewX(0deg) translateX(0px);
+    }
+}
+
+.write-welcome::before {
+    content: "WELCOME";
+    animation: write-welcome 5s linear infinite;
+    animation-delay: 3s;
+}
+
+@keyframes write-welcome {
+    0% {
+        content: "|";
+    }
+    10% {
+        content: "W|";
+    }
+    20% {
+        content: "WE|";
+    }
+    30% {
+        content: "WEL|";
+    }
+    40% {
+        content: "WELC|";
+    }
+    50% {
+        content: "WELCO|";
+    }
+    60% {
+        content: "WELCOM|";
+    }
+    70% {
+        content: "WELCOME|";
+    }
+    75% {
+        content: "WELCOM|";
+    }
+    80% {
+        content: "WELCO|";
+    }
+    85% {
+        content: "WELC|";
+    }
+    90% {
+        content: "WEL|";
+    }
+    95% {
+        content: "WE|";
+    }
+    100% {
+        content: "W|";
+    }
+}
+
+.animate {
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.animate-paused,
+.animate-paused * {
+    animation-play-state: paused;
+}
+
+.animate-running,
+.animate-running * {
+    animation-play-state: running;
+}
+
+.animate-delay-1 {
+    animation-delay: 1s;
+}
+
+.animate-delay-1-5 {
+    animation-delay: 1.5s;
+}
+
+.animate-delay-2 {
+    animation-delay: 2s;
+}
+
+.animate-delay-2-5 {
+    animation-delay: 2.5s;
+}
+
+.animate-delay-3 {
+    animation-delay: 3s;
+}
+
+.animate-delay-3-5 {
+    animation-delay: 3.5s;
+}
+
+.animate-delay-4 {
+    animation-delay: 4s;
+}
+
+.animate-delay-4-5 {
+    animation-delay: 4.5s;
+}
+
+.animate-delay-5 {
+    animation-delay: 5s;
+}
+
+.animate-delay-5-5 {
+    animation-delay: 5.5s;
+}
+
+.animate-delay-skill {
+    animation-delay: 2s;
+}
+
+@media screen and (max-width: 680px) {
+    .animate-delay-skill {
+        animation-delay: 1s;
+    }
+}
