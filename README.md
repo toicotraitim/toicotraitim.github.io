@@ -1,1 +1,1 @@
-<a href="http://toicotraitim.github.io"> Click </a>
+<a href="http://toicotraitim.github.io"> <strong> ToiCoTraiTim </strong> </a>
