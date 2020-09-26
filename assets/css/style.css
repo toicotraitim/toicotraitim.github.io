@@ -22,7 +22,7 @@ a {
 }
 
 .loading {
-    background: #fff;
+    background: #1a1c20;
     color: #000;
     display: flex;
     justify-content: center;
@@ -32,6 +32,33 @@ a {
     height: 100vh;
     z-index: 9999999;
     transition: all 0.4s;
+    flex-flow: column;
+}
+
+.loading .load {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: block;
+    border: 5px solid #fff;
+    border-top: 5px solid #ffc93c;
+    animation: load 0.5s linear infinite;
+}
+
+.loading p {
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+@keyframes load {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 #site-header {
