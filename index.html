@@ -12,6 +12,11 @@
 </head>
 
 <body>
+    <script>
+        var time = new Date();
+        var loadHead = time.getTime();
+    </script>
+    <div class="loading"> Loading </div>
     <!-- #site-header -->
     <header id="site-header" class="">
         <button class="icon-bar">
@@ -33,7 +38,7 @@
             <!-- /.navigation -->
         </section>
         <section class="shead animate-paused">
-            <h2 class="animate zoomInDown" style="text-align: center;">WELCOME</h2>
+            <h2 class="animate fadeInDown" style="text-align: center;">WELCOME</h2>
             <div class="head-introduction">
                 <div class="intro-line-height animate fadeInLeft animate-delay-1"></div>
                 <div class="intro-content">
@@ -47,10 +52,10 @@
     <!-- /#site-header -->
     <main>
         <section id="about" class="">
-            <div class="animate-paused about-avatar animate fadeInUp">
+            <div class="animate-paused about-avatar animate fadeInRight">
                 <img src="assets/img/avatar.jpg" alt="avatar" class="">
             </div>
-            <div class="animate-paused about-content animate fadeInUp">
+            <div class="animate-paused about-content animate fadeInLeft">
                 <h2> Vũ Bá Hướng</h2>
                 <p class="animate fadeInUp animate-delay-1"> Hello everyone, i'm DevAV
                     <br>I'm 19 years old this year, 2nd year student at Posts and Telecommunications Institute of Technology
@@ -60,7 +65,7 @@
 
             </div>
             <div class="animate-paused skilll">
-                <div class="animate fadeInUp animate-delay-skill skills">
+                <div class="animate fadeInDown animate-delay-skill skills">
                     <div class="skill-bar">
                         <p style="font-weight: 500;">HTML</p>
                         <div class="skill" skill="70">
@@ -106,11 +111,12 @@
                 </div>
             </div>
         </section>
-        <section id="devices">
 
-        </section>
         <section id="services">
-
+            <div class="title">
+                <h3>Services</h3>
+            </div>
+            div.container { }
         </section>
         <section id="contact">
 
@@ -119,6 +125,26 @@
 
     <script defer src="assets/js/scroll-to-load.js"></script>
     <script defer src="assets/js/app.js"></script>
+    <script defer>
+        var loadFoot = time.getTime();
+        if (loadFoot - loadHead > 400) {
+            loading();
+        } else {
+            setTimeout(function() {
+                loading();
+            }, 400);
+        }
+        console.log(loadFoot - loadHead);
+
+        function loading() {
+            const loadingg = document.querySelector(".loading");
+            loadingg.style.opacity = 0;
+            setTimeout(function() {
+                loadingg.style.display = "none";
+            }, 400);
+        }
+    </script>
+
 </body>
 
 </html>
