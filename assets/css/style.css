@@ -225,7 +225,7 @@ a {
 #about {
     display: grid;
     grid-template-columns: auto auto;
-    margin: 100px 250px;
+    padding: 100px 250px;
     grid-column-gap: 150px;
     justify-content: center;
     max-height: 1000px;
@@ -465,9 +465,9 @@ a {
         color: #fff !important;
     }
     #about {
-        margin: unset;
-        margin: 40px 20px;
-        margin-bottom: 100px;
+        padding: unset;
+        padding: 40px 20px;
+        margin-bottom: 150px;
         gap: 20px;
         grid-template-columns: auto;
     }
@@ -509,8 +509,9 @@ a {
 
 @media screen and (min-width: 680px) and (max-width: 1500px) {
     #about {
-        margin: unset;
-        margin: 40px 20px;
+        padding: unset;
+        padding: 40px 20px;
+        margin-bottom: 50px;
         grid-column-gap: 150px;
         grid-template-columns: auto;
     }
