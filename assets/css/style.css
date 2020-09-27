@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
     text-decoration: none;
 }
 
@@ -47,8 +46,8 @@ a {
 
 .loading p {
     font-weight: 500;
-    font-size: 30px;
-    margin-top: 40px;
+    font-size: 1.875rem;
+    margin-top: 2.5rem;
     color: #fff;
 }
 
@@ -92,7 +91,7 @@ a {
     width: 660px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 20px 20px 0 0;
-    padding: 20px 40px;
+    padding: 1.25rem 2.5rem;
 }
 
 .snav .navigation ul {
@@ -105,8 +104,8 @@ a {
     cursor: pointer;
     color: #fff;
     font-weight: 500;
-    padding: 10px;
-    font-size: 20px;
+    padding: 0.625rem;
+    font-size: 1.25rem;
     display: block;
 }
 
@@ -133,8 +132,8 @@ a {
     border: none;
     outline: none;
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 0.625rem;
+    left: 0.625rem;
     height: 64px;
     width: 64px;
     display: none;
@@ -146,20 +145,20 @@ a {
     height: 5px;
     width: 48px;
     background: #fff;
-    margin: 10px 8px;
+    margin: 0.625rem 0.5rem;
     border-radius: 10px;
     transition: 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
 .icon-bar.active span:nth-child(1) {
     position: absolute;
-    top: 19px;
+    top: 1.1875rem;
     transform: rotate(45deg) scale(0.8);
 }
 
 .icon-bar.active span:nth-child(2) {
     position: absolute;
-    top: 20px;
+    top: 1.25rem;
     transform: rotate(0deg) scale(0.8);
     opacity: 0;
 }
@@ -176,10 +175,10 @@ a {
 .shead {}
 
 .shead h2 {
-    font-size: 100px;
+    font-size: 6.25rem;
     color: #fff;
     text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.7);
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
 }
 
 .shead .head-introduction {
@@ -196,7 +195,7 @@ a {
 
 .head-introduction .intro-content p {
     letter-spacing: 5px;
-    font-size: 50px;
+    font-size: 3.125rem;
     color: #fff;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
 }
@@ -225,7 +224,7 @@ a {
 #about {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 100px 250px;
+    padding: 6.25rem 15.625rem;
     grid-column-gap: 150px;
     justify-content: center;
     max-height: 1000px;
@@ -251,13 +250,13 @@ a {
 }
 
 #about .about-content h2 {
-    font-size: 40px;
-    margin-bottom: 30px;
+    font-size: 2.5rem;
+    margin-bottom: 1.875rem;
     text-transform: uppercase;
 }
 
 #about .about-content>p {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     color: #636e72;
 }
@@ -274,7 +273,7 @@ a {
 }
 
 #about .skills .skill-bar p {
-    margin: 19px 0px;
+    margin: 1.1875rem 0px;
     text-transform: uppercase;
 }
 
@@ -294,7 +293,7 @@ a {
     height: 32px;
     position: absolute;
     display: block;
-    top: -42px;
+    top: -2.625rem;
     color: #fff;
     text-align: center;
     line-height: 32px;
@@ -313,7 +312,7 @@ a {
     transform: rotate(45deg) translate(-50%);
     position: absolute;
     left: 50%;
-    bottom: -8px;
+    bottom: -0.5rem;
     clip-path: polygon(0 100%, 100% 0, 100% 100%);
 }
 
@@ -350,7 +349,7 @@ a {
 }
 
 #services .title h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
     text-transform: uppercase;
 }
 
@@ -370,14 +369,14 @@ a {
     justify-content: center;
     align-items: center;
     width: calc(50% - 150px);
-    padding: 100px 0;
+    padding: 6.25rem 0;
 }
 
 #services .container .item {
     width: 400px;
     height: 450px;
     border-radius: 20px;
-    padding: 20px;
+    padding: 1.25rem;
     transition: 0.3s ease-in-out;
 }
 
@@ -396,24 +395,24 @@ a {
 
 .item .content h3 {
     text-align: center;
-    margin: 20px;
-    font-size: 20px;
+    margin: 1.25rem;
+    font-size: 1.25rem;
 }
 
 .item .content ul li {
     list-style-type: circle;
-    margin: 0 10px;
+    margin: 0 0.625rem;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 @media screen and (max-width: 680px) {
     .shead h2 {
-        font-size: 50px;
-        margin-bottom: 50px;
+        font-size: 3.125rem;
+        margin-bottom: 3.125rem;
     }
     .shead .head-introduction {
-        gap: 20px;
+        gap: 1.25rem;
     }
     .head-introduction .intro-line-height {
         height: 100px;
@@ -431,7 +430,7 @@ a {
     }
     .head-introduction .intro-content p {
         letter-spacing: 5px;
-        font-size: 25px;
+        font-size: 1.5625rem;
     }
     .icon-bar {
         display: block;
@@ -458,17 +457,17 @@ a {
         flex-flow: column;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 1.875rem;
     }
     .snav .navigation ul li a {
-        font-size: 40px;
+        font-size: 2.5rem;
         color: #fff !important;
     }
     #about {
         padding: unset;
-        padding: 40px 20px;
-        margin-bottom: 150px;
-        gap: 20px;
+        padding: 2.5rem 1.25rem;
+        margin-bottom: 9.375rem;
+        gap: 1.25rem;
         grid-template-columns: auto;
     }
     #about .about-avatar {
@@ -490,16 +489,16 @@ a {
         height: 100px;
     }
     #services .title h3 {
-        line-height: 50px;
-        font-size: 25px;
+        line-height: 3.125rem;
+        font-size: 1.5625rem;
     }
     #services .container {
-        padding-top: 125px;
-        gap: 50px;
+        padding-top: 7.8125rem;
+        gap: 3.125rem;
     }
     #services .container>* {
         width: 100%;
-        padding: 25px 0;
+        padding: 1.5625rem 0;
     }
     #services .container .item {
         width: 350px;
@@ -510,9 +509,9 @@ a {
 @media screen and (min-width: 680px) and (max-width: 1500px) {
     #about {
         padding: unset;
-        padding: 40px 20px;
-        margin-bottom: 50px;
-        grid-column-gap: 150px;
+        padding: 2.5rem 1.25rem;
+        margin-bottom: 3.125rem;
+        grid-column-gap: 9.375rem;
         grid-template-columns: auto;
     }
     #about .about-avatar {
@@ -521,7 +520,7 @@ a {
     }
     #about .about-content h2 {
         text-align: center;
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 }
 
@@ -532,15 +531,15 @@ a {
     }
     #services .title h3 {
         line-height: 50px;
-        font-size: 25px;
+        font-size: 1.5625rem;
     }
     #services .container {
-        padding-top: 125px;
-        gap: 50px;
+        padding-top: 7.8125rem;
+        gap: 3.125rem;
     }
     #services .container>* {
         width: 100%;
-        padding: 25px 0;
+        padding: 1.5625rem 0;
     }
     #services .container .item {
         width: 500px;
